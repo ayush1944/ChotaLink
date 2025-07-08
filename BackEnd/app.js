@@ -10,10 +10,9 @@ import { userRoutes } from './src/routes/user.route.js';
 
 const app = express();
 
-// More specific CORS configuration
 app.use(cors({
-  origin: '*'
-  credentials: true
+  origin: 'https://chota-link-nwgu.vercel.app',
+  credentials: true 
 }));
 
 app.use(cookieParser());
