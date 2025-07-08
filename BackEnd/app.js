@@ -12,7 +12,7 @@ const app = express();
 
 // More specific CORS configuration
 app.use(cors({
-  origin: 'http://localhost:5173', // or '*'
+  origin: 'https://chota-link-nwgu.vercel.app/', // or '*'
   credentials: true
 }));
 
