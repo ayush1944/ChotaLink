@@ -11,7 +11,8 @@ import { userRoutes } from './src/routes/user.route.js';
 const app = express();
 
 app.use(cors({
-  origin: '*',
+  origin: 'https://chota-link-nwgu.vercel.app/',
+  credential : true
 }));
 
 app.use(cookieParser());
